@@ -1,0 +1,17 @@
+﻿// this file has BOM in it. compiler should ignore it
+// test parameters
+$ main(o1:Object)
+{
+	if ((o1.i - 1) - 1) == -2  
+		o1.i--
+	
+	// returns -1
+	return o1.i
+}
+
+
+type Object
+{
+	var b: bool
+	var i: int
+}

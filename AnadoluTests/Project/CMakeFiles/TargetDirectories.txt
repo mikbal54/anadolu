@@ -1,0 +1,3 @@
+C:/PROJECTS/AnadoluTests/Project/CMakeFiles/ALL_BUILD.dir
+C:/PROJECTS/AnadoluTests/Project/CMakeFiles/AnadoluTests.dir
+C:/PROJECTS/AnadoluTests/Project/CMakeFiles/ZERO_CHECK.dir

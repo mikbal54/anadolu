@@ -1,0 +1,20 @@
+type Object
+{
+	var b: bool
+	var i: int
+}
+
+$ main()
+{
+	var v: int
+	var obj : Object
+	
+	obj.i = 2
+
+	// expression test
+	if 4 * obj.i == 8 
+		v++
+	
+	// v must be 1
+	return v
+}

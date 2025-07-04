@@ -1,0 +1,19 @@
+type Object
+{
+	var b: bool
+	var i: int
+}
+
+$ main()
+{
+	var v: int
+	var obj : Object
+	
+	obj.i = 0
+
+	if -obj.i == -1 + 2 - 1  // this is true
+		v++
+	
+	// v must be 1
+	return v
+}

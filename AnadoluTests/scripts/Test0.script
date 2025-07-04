@@ -1,0 +1,15 @@
+package main
+
+// main function
+$ main()
+{
+	var v : int
+	v = 1
+	if v == 5 
+		if true
+			if true
+				v++
+	
+
+	return v
+}

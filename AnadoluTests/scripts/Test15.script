@@ -1,0 +1,21 @@
+type Object
+{
+	var b: bool
+	var i: int
+}
+
+$ main()
+{
+	var v: int
+	var obj : Object
+	
+	obj.i++
+	// test local object subtract
+	if (obj.i - 1) == 0 
+		v++
+	
+	
+	
+	// v must be 1
+	return v
+}

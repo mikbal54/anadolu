@@ -1,0 +1,21 @@
+type Object
+{
+	var b: bool
+	var i: int
+}
+
+$ main()
+{
+	var v: int
+	var obj1 : Object
+	var obj2 : Object
+	
+	// not equal operator
+	
+	if 1 != 2 != false
+		v++
+	
+	// v must be 1
+	
+	return v
+}

@@ -1,0 +1,22 @@
+type Object
+{
+	var b: bool
+	var i: int
+}
+
+$ main()
+{
+	var v: int
+	var obj1 : Object
+	var obj2 : Object
+	
+	obj1.i = 4
+	obj2.i = 20
+
+	// expression test
+	if -(10 * obj1.i) / 10 + 5 - obj2.i + 20 / (4 * obj1.i) - 4 / 2 + -5  == -25  // this is true
+		v++
+	
+	// v must be 1
+	return v
+}

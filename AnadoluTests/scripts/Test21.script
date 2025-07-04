@@ -1,0 +1,21 @@
+type Object
+{
+	var b: bool
+	var i: int
+}
+
+$ main()
+{
+	var v: int
+	var obj : Object
+	
+	obj.i = 0
+
+	// expression test
+	// this compiled to if(1) v++ . constant folding should work fine here 
+	if 4 + 5 * (obj.i - obj.i) * 2 + 9 == 13 // this is true
+		v++
+	
+	// v must be 1
+	return v
+}

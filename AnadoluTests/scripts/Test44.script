@@ -1,0 +1,22 @@
+﻿// this file has BOM in it. compiler should ignore it
+// test function call
+$ main(o1:Object, o2:Object)
+{
+	var i : int
+	i = SecondFunction(5, true)
+	// i is 5
+	return i
+}
+
+$ SecondFunction(i : int, b: bool)
+{
+	if b
+		return i
+	return 0
+}
+
+type Object
+{
+	var b: bool
+	var i: int
+}

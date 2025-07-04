@@ -1,0 +1,16 @@
+package main
+
+// main function
+$ main()
+{
+	var v : int
+	
+	
+	v = 21
+	
+	if v == (20 + 1)  
+		v++
+	
+	// v must be 22
+	return v
+}

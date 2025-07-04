@@ -1,0 +1,16 @@
+// test multi-pass parser
+$ main()
+{
+	var v : int
+	var obj1 : Object
+	
+	obj1.i--
+	
+	return v
+}
+
+type Object
+{
+	var b: bool
+	var i: int
+}

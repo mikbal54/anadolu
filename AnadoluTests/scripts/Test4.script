@@ -1,0 +1,18 @@
+type Object
+{
+	var first : bool
+}
+
+$ main()
+{
+	var v: int
+	var o : Object
+	
+	o.first = true
+	
+	if o.first 
+		v++
+	
+	// v must be 1
+	return v
+}

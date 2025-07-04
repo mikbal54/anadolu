@@ -1,0 +1,19 @@
+type Object
+{
+	var first : bool
+	var second : int
+}
+
+$ main()
+{
+	var v: int
+	var o : Object
+	
+	o.second = 1
+	
+	if o.second == 1 
+		v++
+	
+	// v must be 1
+	return v
+}

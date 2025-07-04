@@ -1,0 +1,20 @@
+type Object
+{
+	var b: bool
+	var i: int
+}
+
+$ main()
+{
+	var v: int
+	var obj : Object
+	
+	obj.i = 0
+
+	// expression test
+	if 20/4 == 5 // this is true
+		v++
+	
+	// v must be 1
+	return v
+}

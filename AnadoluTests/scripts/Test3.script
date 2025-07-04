@@ -1,0 +1,10 @@
+$ main()
+{
+	var v : int
+	
+	if v == 0 
+		v++
+	
+	// v must be 1
+	return v
+}

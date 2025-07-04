@@ -1,0 +1,12 @@
+$ main()
+{
+	var v: int
+	
+	// simple subtract operator and constant folding
+	if (30 - 20) == 10 
+		v++
+	
+	
+	// v must be 1
+	return v
+}

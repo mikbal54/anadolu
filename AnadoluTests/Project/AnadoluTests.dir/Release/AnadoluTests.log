@@ -1,0 +1,16 @@
+﻿  ScriptLanguage.cpp
+C:\PROJECTS\AnadoluTests\Source\src\ScriptLanguage.cpp(31): warning C4244: 'argument' : conversion from 'std::streamoff' to 'unsigned int', possible loss of data
+  Ast.cpp
+  Lexer.cpp
+  Node.cpp
+  Package.cpp
+  PackageInfo.cpp
+  PackageParser.cpp
+  PackageParserSemantic.cpp
+  Parser.cpp
+  Bytecode.cpp
+  BytecodeGenerator.cpp
+  ExecutionContext.cpp
+  VM.cpp
+  Generating Code...
+  AnadoluTests.vcxproj -> C:\PROJECTS\AnadoluTests\bin\Release\AnadoluTests.exe

@@ -1,0 +1,24 @@
+package main
+
+type Object
+{
+	var b: bool
+	var i: int
+}
+
+// main function
+$ main()
+{
+	var obj : Object
+	var obj2 : Object
+	var obj3 : Object
+	
+	obj3.i = 1
+	
+	if (obj.i == obj2.i) == true == true == true == (true == (obj.i == 0)) == (obj3.i == 1) 
+		obj.i++
+	
+	
+	// obj.i must be 1
+	return obj.i
+}

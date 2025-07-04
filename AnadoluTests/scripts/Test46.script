@@ -1,0 +1,14 @@
+﻿// this file has BOM in it. compiler should ignore it
+// test mult function
+$ main()
+{
+	var i : int
+	i = Mult(100, 10)
+	// must be 1000
+	return i
+}
+
+$ Mult(first : int, second : int )
+{
+	return first * second
+}

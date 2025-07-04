@@ -1,0 +1,17 @@
+package main
+
+// main function
+$ main()
+{
+	var v : int
+	var t : bool
+	
+	// v is 0 by default
+	// t is false by default
+	// this must increase
+	if (t == false) == true 
+		v++
+	
+	// v must be 1
+	return v
+}

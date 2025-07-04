@@ -1,0 +1,71 @@
+cmake_minimum_required(VERSION 2.6) 
+set(CMAKE_ALLOW_LOOSE_LOOP_CONSTRUCTS TRUE) 
+cmake_policy(SET CMP0003 NEW) 
+ 
+set(PROJECT_NAME AnadoluTests)
+project(${PROJECT_NAME}) 
+
+if(WIN32)
+	set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} /SUBSYSTEM:WINDOWS")
+endif(WIN32)
+
+if(MSVC)
+add_definitions(-DUNICODE -D_UNICODE)
+endif(MSVC)
+
+SET(EXE_PATH "../bin/")
+SET(EXECUTABLE_OUTPUT_PATH ${EXE_PATH})
+SET(ANADOLU_PATH "../../Anadolu/")
+
+link_directories(
+)
+
+#find all headers, store them
+file(GLOB Headers
+    "include/*.h"
+	${ANADOLU_PATH}/Parser/*.h
+	${ANADOLU_PATH}/VM/*.h
+) 
+
+file(GLOB Source_Other
+	"src/*.cpp"
+	${ANADOLU_PATH}/Parser/*.cpp
+	${ANADOLU_PATH}/VM/*.cpp
+)
+
+include_directories(
+	include
+	${ANADOLU_PATH}
+)
+
+add_executable(
+	${PROJECT_NAME}
+	${Source_Other}
+	${Headers}
+)
+
+if(MSVC)
+
+set(LINK_LIBRARY 
+)
+
+endif (MSVC)
+
+
+target_link_libraries(${PROJECT_NAME} ${LINK_LIBRARY})
+
+
+source_group("SOURCES" FILES ${Source_Other})
+source_group("HEADERS" FILES  ${Headers})
+
+
+if(WIN32)
+  # set_target_properties(${PROJECT_NAME} PROPERTIES LINK_FLAGS_DEBUG "/SUBSYSTEM:windows")
+  # set_target_properties(${PROJECT_NAME} PROPERTIES COMPILE_DEFINITIONS_DEBUG "_CONSOLE")
+  # set_target_properties(${PROJECT_NAME} PROPERTIES LINK_FLAGS_RELWITHDEBINFO "/SUBSYSTEM:windows")
+   #set_target_properties(${PROJECT_NAME} PROPERTIES COMPILE_DEFINITIONS_RELWITHDEBINFO "_CONSOLE")
+   #set_target_properties(${PROJECT_NAME} PROPERTIES LINK_FLAGS_RELEASE "/SUBSYSTEM:windows")
+   #set_target_properties(${PROJECT_NAME} PROPERTIES LINK_FLAGS_MINSIZEREL "/SUBSYSTEM:windows")
+endif(WIN32)
+
+

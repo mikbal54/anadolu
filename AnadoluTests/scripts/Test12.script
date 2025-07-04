@@ -1,0 +1,20 @@
+package main
+
+type Object
+{
+	var b: bool
+	var i: int
+}
+
+// main function
+$ main()
+{
+	var obj : Object
+	
+	if obj.i == 0
+		obj.i++
+	
+	
+	// obj.i must be 1
+	return obj.i
+}

@@ -1,0 +1,14 @@
+﻿// this file has BOM in it. compiler should ignore it
+// test function calls
+$ main()
+{
+	var i : int
+	i = AddOne(AddOne(AddOne (AddOne (AddOne (AddOne(1))))))
+	// must be 6
+	return i
+}
+
+$ AddOne(i : int)
+{
+	return i + 1
+}

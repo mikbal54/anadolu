@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\PROJECTS\AnadoluTests\Source\src\ScriptLanguage.cpp">
+      <Filter>SOURCES</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\PROJECTS\Anadolu\Parser\Ast.cpp">
+      <Filter>SOURCES</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\PROJECTS\Anadolu\Parser\Lexer.cpp">
+      <Filter>SOURCES</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\PROJECTS\Anadolu\Parser\Node.cpp">
+      <Filter>SOURCES</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\PROJECTS\Anadolu\Parser\Package.cpp">
+      <Filter>SOURCES</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\PROJECTS\Anadolu\Parser\PackageInfo.cpp">
+      <Filter>SOURCES</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\PROJECTS\Anadolu\Parser\PackageParser.cpp">
+      <Filter>SOURCES</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\PROJECTS\Anadolu\Parser\PackageParserSemantic.cpp">
+      <Filter>SOURCES</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\PROJECTS\Anadolu\Parser\Parser.cpp">
+      <Filter>SOURCES</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\PROJECTS\Anadolu\VM\Bytecode.cpp">
+      <Filter>SOURCES</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\PROJECTS\Anadolu\VM\BytecodeGenerator.cpp">
+      <Filter>SOURCES</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\PROJECTS\Anadolu\VM\ExecutionContext.cpp">
+      <Filter>SOURCES</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\PROJECTS\Anadolu\VM\VM.cpp">
+      <Filter>SOURCES</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\PROJECTS\Anadolu\Parser\Ast.h">
+      <Filter>HEADERS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\PROJECTS\Anadolu\Parser\Lexer.h">
+      <Filter>HEADERS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\PROJECTS\Anadolu\Parser\Node.h">
+      <Filter>HEADERS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\PROJECTS\Anadolu\Parser\Package.h">
+      <Filter>HEADERS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\PROJECTS\Anadolu\Parser\PackageInfo.h">
+      <Filter>HEADERS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\PROJECTS\Anadolu\Parser\PackageParser.h">
+      <Filter>HEADERS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\PROJECTS\Anadolu\Parser\PackageParserSemantic.h">
+      <Filter>HEADERS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\PROJECTS\Anadolu\Parser\Parser.h">
+      <Filter>HEADERS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\PROJECTS\Anadolu\Parser\PrimitiveTypes.h">
+      <Filter>HEADERS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\PROJECTS\Anadolu\Parser\TokenType.h">
+      <Filter>HEADERS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\PROJECTS\Anadolu\VM\Bytecode.h">
+      <Filter>HEADERS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\PROJECTS\Anadolu\VM\BytecodeGenerator.h">
+      <Filter>HEADERS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\PROJECTS\Anadolu\VM\ExecutionContext.h">
+      <Filter>HEADERS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\PROJECTS\Anadolu\VM\Instruction.h">
+      <Filter>HEADERS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\PROJECTS\Anadolu\VM\VM.h">
+      <Filter>HEADERS</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\PROJECTS\AnadoluTests\Source\CmakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="SOURCES">
+      <UniqueIdentifier>{706C163E-84B4-4F15-91DB-D110123DEEC7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HEADERS">
+      <UniqueIdentifier>{8A392A57-768D-434A-9961-680CE60DF650}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

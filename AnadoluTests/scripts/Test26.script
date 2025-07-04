@@ -1,0 +1,27 @@
+type Object
+{
+	var b: bool
+	var i: int
+}
+
+$ main()
+{
+	var v: int
+	var obj1 : Object
+	var obj2 : Object
+	
+	
+	// simple increment and decrement test
+	obj1.i = 5
+	obj2.i = 7
+
+	obj1.i++
+	obj2.i--
+	
+	 // this is true
+	if (-25 == -25) == ( obj1.i == obj2.i )
+		v++
+	
+	// v must be 1
+	return v
+}

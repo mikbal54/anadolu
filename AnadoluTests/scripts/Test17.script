@@ -1,0 +1,19 @@
+type Object
+{
+	var b: bool
+	var i: int
+}
+
+$ main()
+{
+	var v: int
+	var obj : Object
+	
+	obj.i = 1
+	// test local object subtract, negate and comparison
+	if -obj.i + obj.i + 5 - (-5) == 10  
+		v++
+	
+	// v must be 1
+	return v
+}

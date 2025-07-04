@@ -1,0 +1,22 @@
+﻿// this file has BOM in it. compiler should ignore it
+// test parameters
+// test / operator in parameters
+$ main(o1:Object, o2:Object)
+{
+	var i : int
+	i = 2
+	o2.i = 50
+	o1.i = 10
+	if ( (( o2.i / o1.i * 2) / i * 2 ) / -i) == -5
+		o1.i--
+	
+	// returns 9
+	return o1.i
+}
+
+
+type Object
+{
+	var b: bool
+	var i: int
+}

@@ -1,0 +1,20 @@
+type Object
+{
+	var b: bool
+	var i: int
+}
+
+$ main()
+{
+	var v: int
+	var obj : Object
+	
+	obj.i = 2
+
+	// expression test
+	if (obj.i * obj.i - 1) * (obj.i * obj.i) + 4  == 16 
+		v++
+	
+	// v must be 1
+	return v
+}
