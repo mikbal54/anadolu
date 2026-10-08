@@ -6,3 +6,8 @@ It included a lexer, a parser, a bytecode generator and a VM.
 This project has been canceled before completion.
 
 It was be a staticly typed, compiled and easy to embed.
+
+
+See the AnadoluTests/scripts folder to see in to the syntax i was intending.
+
+I wanted something easy on the fingers and eyes.
