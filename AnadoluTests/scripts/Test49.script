@@ -1,0 +1,12 @@
+// 4 parameters of different sizes
+$ main()
+{
+	return SumIf(true, 4, 5, 6)
+}
+
+$ SumIf(enabled : bool, first : int, second : int, third : int)
+{
+	if enabled
+		return first + second + third
+	return 0
+}

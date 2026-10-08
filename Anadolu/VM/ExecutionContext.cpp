@@ -83,7 +83,7 @@ void ExecutionContext::ExecuteInstructions()
       memcpy((char*)(registers[instruction.param1]) + instruction.param2, registers + instruction.param3, 1);
       break;
     case OP_CallPrep:
-      registers[instruction.param1] = (INT)malloc(8);
+      registers[instruction.param1] = (INT)new char[instruction.param2];
       break;
 
     case OP_Call:

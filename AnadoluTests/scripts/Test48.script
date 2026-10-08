@@ -1,0 +1,10 @@
+// Three integer arguments, to test parameter size
+$ main()
+{
+	return Sum(10, 20, 30)
+}
+
+$ Sum(first : int, second : int, third : int)
+{
+	return first + second + third
+}

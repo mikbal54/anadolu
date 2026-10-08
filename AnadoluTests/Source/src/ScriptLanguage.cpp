@@ -167,6 +167,8 @@ void main()
     RunTest("../scripts/Test45.script", 75025, 12);  
     RunTest("../scripts/Test46.script", 1000, 0);
     RunTest("../scripts/Test47.script", 7, 0);
+    RunTest("../scripts/Test48.script", 60, 0);
+    RunTest("../scripts/Test49.script", 15, 0);
     /**/
   }
 
